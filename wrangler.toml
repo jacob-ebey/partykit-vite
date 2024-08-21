@@ -1,0 +1,25 @@
+name = "vite_cloudflare_example_hono"
+compatibility_date = "2024-04-03"
+workers_dev = true
+
+[site]
+bucket = "./dist/browser"
+
+[[durable_objects.bindings]]
+name = "PARTYKIT_DURABLE"
+class_name = "PartyKitDurable"
+
+[[migrations]]
+tag = "v1"
+new_classes = ["PartyKitDurable"]
+
+[env.development]
+
+[[env.development.durable_objects.bindings]]
+name = "PARTYKIT_DURABLE"
+class_name = "PartyKitDurable"
+script_name = "worker"
+
+[[env.development.migrations]]
+tag = "v1"
+new_classes = ["PartyKitDurable"]
