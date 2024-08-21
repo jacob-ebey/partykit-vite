@@ -15,7 +15,7 @@
   "devDependencies": {
     "@cloudflare/workers-types": "4.20240815.0",
     "@hattip/adapter-node": "0.0.47",
-    "@jacob-ebey/vite-cloudflare-plugin": "0.0.2",
+    "@jacob-ebey/vite-cloudflare-plugin": "0.0.3",
     "@types/ws": "8.5.12",
     "partykit": "0.0.108",
     "typescript": "5.5.4",

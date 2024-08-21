@@ -22,8 +22,8 @@ importers:
         specifier: 0.0.47
         version: 0.0.47
       '@jacob-ebey/vite-cloudflare-plugin':
-        specifier: 0.0.2
-        version: 0.0.2(vite@6.0.0-alpha.19(@types/node@22.4.1))(wrangler@3.72.0(@cloudflare/workers-types@4.20240815.0))
+        specifier: 0.0.3
+        version: 0.0.3(vite@6.0.0-alpha.19(@types/node@22.4.1))(wrangler@3.72.0(@cloudflare/workers-types@4.20240815.0))
       '@types/ws':
         specifier: 8.5.12
         version: 8.5.12
@@ -423,8 +423,8 @@ packages:
     resolution: {integrity: sha512-kCEdC2kG3mbFCc2gHs13GFI5VaWfvYYYxZwu7u3wax3R7JkLqztyxno35TT9cMv33XhuN5hf+CkDGCPoO0DIag==}
     hasBin: true
 
-  '@jacob-ebey/vite-cloudflare-plugin@0.0.2':
-    resolution: {integrity: sha512-VbdjtflHzMcu3S1DZ1UIHJKm1RAQ79Ug4oc45wjyYmZow7id0eM2LJvoAF75vHclJvwBTTzWFY7bCJNUltAwzg==}
+  '@jacob-ebey/vite-cloudflare-plugin@0.0.3':
+    resolution: {integrity: sha512-pFsyl1O+FdjNL+HVKmDZaDQOW8w4IHJEE52RvsjxWBXM/OceF7bbc6lMk68OecQN4h0xONtG2dhvbGT5FaX3lg==}
     peerDependencies:
       vite: 6.0.0-alpha.19
       wrangler: '>=3.72.0'
@@ -1234,7 +1234,7 @@ snapshots:
       cac: 6.7.14
       mime-types: 2.1.35
 
-  '@jacob-ebey/vite-cloudflare-plugin@0.0.2(vite@6.0.0-alpha.19(@types/node@22.4.1))(wrangler@3.72.0(@cloudflare/workers-types@4.20240815.0))':
+  '@jacob-ebey/vite-cloudflare-plugin@0.0.3(vite@6.0.0-alpha.19(@types/node@22.4.1))(wrangler@3.72.0(@cloudflare/workers-types@4.20240815.0))':
     dependencies:
       miniflare: 3.20240806.1
       vite: 6.0.0-alpha.19(@types/node@22.4.1)
